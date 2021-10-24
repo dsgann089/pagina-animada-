@@ -1,0 +1,171 @@
+/* cambios para toda la  pagina */
+*{
+padding:0px;
+margin:0px;
+box-sizing: border-box;  
+}
+/* cambios de la cabezera o logo*/
+header{
+width:100%;
+height:80px;
+background-color:rgba(39,146,228,0.5); 
+}
+/* clase logo_nav*/
+.logo_nav{
+width:100%;
+padding:20px;
+text-align:right;
+position: fixed;
+top:0px;   
+}
+/* cambios en el menu ul li*/
+.logo_nav ul li{
+list-style:none;
+display: inline-block;
+padding: 10px 50px;
+color:white;
+font-size:20px;
+font-family:sans-serif;
+cursor:pointer;  
+}
+/* cambios con lo li y <a*/
+.logo_nav ul li a{
+text-decoration: none;
+color: white;
+
+}
+/* nombre del logo*/
+.nomb_logo{
+width:330px;
+padding:0px 20px;
+float:left;
+position:relative;
+top:5%;
+left:2%;
+color:#fff;
+font-size:30px;    
+}
+/* modificacion de la imagen*/
+.logo_img{
+width:80px;
+position:absolute;
+transform: translateX(-1250px)translateY(-15px)  
+}
+/*modificacion del contenedor*/
+.contenedor{
+position: absolute;
+top:50%;
+left:50%;
+transform: translateX(-50%)translateY(-50%);
+padding: 25px 10px;
+border:solid;
+background-color:rgba(0,0,0,0.3); 
+}
+/*titulo del contenedor*/
+.titulo_cont{
+font-size:40px;
+text-align:center;
+padding:20px 10px;
+color:white;  
+}
+/*modificar los parrafod*/
+.parrafo_cont{
+font-size:20px;
+text-align:justify;
+color:white;  
+}
+/*modificacion de video*/
+.video{
+position:fixed;
+min-width:100%;
+min-width:100%; 
+top:50%;
+left:50%;
+transform:translateY(-50%)translateX(-50%);
+z-index:-1;   
+}
+/* footer en modificacion */
+.foot{
+background-color:rgba(0,0,0,0.6); 
+margin-top:41%;
+width:100%;
+padding:20px 0px;
+position:relative;  
+}
+/*modiicar el parrafo*/
+.foot_parrofo{
+color:white;
+text-align: center;
+}
+/* diseñando el menu*/
+.marca{
+background-color:rgba(255, 0, 0); 
+}
+.marca_2{
+background-color:rgba(0, 0, 255);
+}
+.marca_1{
+background-color:rgba(255, 0, 0);
+}
+/* imagen de fondo de la pagina*/
+.fotos_fondos{
+position:fixed;
+top:40%; 
+left:50%;
+transform: translateX(-50%)translateY(-50%);
+width:100%;
+height:100%;
+z-index:-1;  
+}
+
+/* estilo del formulario*/
+.formulario_ing{
+ width:500px;
+ max-width:100%;
+ margin:auto;
+ margin-top:150px;
+ padding:20px;
+ box-shadow:0 0 20px 1px rgba(0,0,0,0.4);
+ position:relative;
+ background-color:rgba(255,255,255,0.4);    
+}
+/* titulo del h2*/
+.info_h2{
+  text-align:center;
+  margin-top:0;
+  color:#000;
+  font-family:sans-serif;    
+}
+/* formulario */
+.formula,.enviar{
+ display:block;
+ padding:20px;
+  width: 100%;
+ margin:30px 0px;
+ font-size:20px;
+ border:none;  
+}
+/*  estilo de enviar*/
+.enviar{
+background:-webkit-gradient(linear, 37% 52%, 46% 65%, from(#85FFFF), to(#C6EF99))
+border:0;
+cursor:pointer;
+border-radius:30px;
+margin-bottom:0;
+opacity: 0.7;
+transition:.8s ease-out;
+color:#000;     
+}
+/* color de de enviar hover*/
+.enviar:hover{
+ opacity: 1;
+ border-radius:0;
+background:-webkit-gradient(linear, 37% 52%, 46% 65%, from(#85FFFF), to(#C6EF99))
+}
+.foot_2{
+background-color:rgba(0,0,0,0.6); 
+margin-top:10%;
+width:100%;
+padding:20px 0px;
+position:relative;  
+}
